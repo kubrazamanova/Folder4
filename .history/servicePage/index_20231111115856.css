@@ -36,10 +36,12 @@
 
 .container .logo {
   display: flex;
-  justify-content: space-between;
   margin-top: 51px;
 }
 
+.container .logo svg {
+  margin-right: 130px;
+}
 
 .container h2 {
   width: 542px;
@@ -68,11 +70,11 @@
 .container ul {
   display: flex;
   margin-top: 50px;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .container ul li {
-  width: 30%;
+  width: 299px;
   border-radius: 8px;
   background: var(--neutral-white, #fff);
   box-shadow: 0px 2px 4px 0px rgba(171, 190, 209, 0.2);
@@ -80,6 +82,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-right: 144px;
 }
 
 .container ul li img {
@@ -117,14 +120,15 @@
 }
 
 .container ul li:last-child b {
-  /* width: 231px; */
+  width: 231px;
 }
 
 .container .main-box {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 66px 144px;
+  margin-top: 148px;
+  padding: ;
 }
 
 .container .main-box .right-side b {

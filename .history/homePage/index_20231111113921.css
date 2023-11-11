@@ -6,13 +6,12 @@
 
 .container {
   min-height: 100vh;
-  background: var(--neutral-silver, #f5f7fa);
   padding: 22px 120px 96px 105px;
 }
-.container nav {
+.container nav{
   display: flex;
   align-items: center;
-  justify-content: space-between;
+justify-content: space-between;
 }
 .container nav ul {
   display: flex;
@@ -35,61 +34,34 @@
   text-decoration: none;
 }
 
-.container nav .buttons-box {
+.container nav .buttons-box{
   display: flex;
   align-items: center;
 }
-.container nav button {
+.container nav button{
   border: none;
-  background: none;
 }
-.container nav .login-btn a {
-  color: var(--brand-primary, #4caf4f);
-  text-align: center;
-  font-feature-settings:
-    "salt" on,
-    "clig" off,
-    "liga" off;
+.container nav .login-btn a{
+  color: var(--brand-primary, #4CAF4F);
+text-align: center;
+font-feature-settings: 'salt' on, 'clig' off, 'liga' off;
 
-  /* Label / Medium Label */
-  font-family: Inter;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 20px; /* 142.857% */
-  text-decoration: none;
+/* Label / Medium Label */
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; /* 142.857% */
+text-decoration: none;
 }
-.container nav .signup-btn {
-  padding: 10px 17px;
-  margin-left: 10px;
-  background-color: #4caf4f;
-  display: flex;
-  align-items: center;
-  border-radius: 2.784px;
-}
-.container nav .signup-btn a {
-  margin-right: 7px;
-  color: var(--default-white, #fff);
-  text-align: center;
-  font-feature-settings:
-    "salt" on,
-    "clig" off,
-    "liga" off;
-
-  /* Label / Medium Label */
-  font-family: Inter;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 20px; /* 142.857% */
-  text-decoration: none;
-}
+.container nav .login-btn a{
 
 .container .box2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 96px 52px 66px 100px;
+  padding: 66px 52px 66px 100px;
+  background: var(--neutral-silver, #f5f7fa);
 }
 
 .container .box2 .left-side h1 {
@@ -102,15 +74,13 @@
   font-style: normal;
   font-weight: 600;
   line-height: 52.901px;
+  color: var(--brand-primary, #4caf4f);
   font-family: Inter;
   font-size: 44.548px;
   font-style: normal;
   font-weight: 600;
   line-height: 52.901px;
   align-self: stretch;
-}
-.container h1 span {
-  color: var(--brand-primary, #4caf4f);
 }
 
 .container .box2 .left-side h2 {

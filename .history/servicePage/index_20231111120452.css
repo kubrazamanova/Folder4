@@ -40,6 +40,9 @@
   margin-top: 51px;
 }
 
+.container .logo svg {
+  /* margin-right: 130px; */
+}
 
 .container h2 {
   width: 542px;
